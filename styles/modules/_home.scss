@@ -1,0 +1,53 @@
+#home {
+    #content_blk {
+        .heading_title {
+            h1 {
+                color: white;
+                font-size: 12vw;
+                text-align: center;
+                @include text-shadow(3px, 1px, 6px, 150, 150, 150, 0.76)
+            }
+            .btncontainer {
+                @extend %flexCenter;
+            }
+            width: 100%;
+            position: absolute;
+            top:20%;
+        }
+        @include sameWH(100%);
+    }
+    .container {
+        position: relative;
+        .quote_blk {
+            position: relative;
+            padding: 5%;
+        }
+    }
+    #main {
+        background: url(../img/main.jpg) no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+        overflow: auto;
+    }
+    .bk2 {
+        background: url(../img/banner1.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+        overflow: auto;
+    }
+    .bk4 {
+        background: url(../img/banner2.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+        overflow: auto;
+    }
+}

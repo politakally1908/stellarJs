@@ -1,0 +1,65 @@
+#home #content_blk .heading_title .btncontainer {
+  display: flex;
+  justify-content: center; }
+
+body, html {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+section {
+  background-color: #D5E1A3;
+  position: relative;
+  width: 100%; }
+  section#main {
+    width: 100%;
+    height: 100%; }
+  section.subsect {
+    position: relative;
+    height: 40%; }
+    section.subsect:nth-child(even) {
+      height: 50%; }
+
+#home #content_blk {
+  width: 100%;
+  height: 100%; }
+  #home #content_blk .heading_title {
+    width: 100%;
+    position: absolute;
+    top: 20%; }
+    #home #content_blk .heading_title h1 {
+      color: white;
+      font-size: 12vw;
+      text-align: center;
+      text-shadow: 3px 1px 6px rgba(150, 150, 150, 0.76); }
+#home .container {
+  position: relative; }
+  #home .container .quote_blk {
+    position: relative;
+    padding: 5%; }
+#home #main {
+  background: url(../img/main.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: auto; }
+#home .bk2 {
+  background: url(../img/banner1.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: auto; }
+#home .bk4 {
+  background: url(../img/banner2.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: auto; }
+
+/*# sourceMappingURL=main.css.map */

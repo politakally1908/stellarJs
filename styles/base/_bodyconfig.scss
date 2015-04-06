@@ -1,0 +1,19 @@
+body, html{
+	@include sameWH(100%);
+	position: relative;
+}
+section{
+	&#main{
+		@include sameWH(100%);
+	}
+	&.subsect{
+		position: relative;
+		height: 40%;
+		&:nth-child(even){
+			height: 50%;
+		}
+	}
+	background-color:#D5E1A3;
+	position: relative;
+	width: 100%;
+}

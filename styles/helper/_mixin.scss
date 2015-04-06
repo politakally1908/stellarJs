@@ -1,0 +1,12 @@
+@mixin sameWH($x){
+	width: $x;
+	height: $x;
+}
+@mixin box-shadow($a,$b,$c,$d,$e,$f,$g,$h){
+	-webkit-box-shadow: $a $b $c $d rgba($e,$f,$g,$h);
+-moz-box-shadow: $a $b $c $d rgba($e,$f,$g,$h);
+box-shadow: $a $b $c $d rgba($e,$f,$g,$h);
+}
+@mixin text-shadow($b,$c,$d,$e,$f,$g,$h){
+	text-shadow: $b $c $d rgba($e,$f,$g,$h);
+}
